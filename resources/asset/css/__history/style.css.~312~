@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Sep, 2018, 3:42:05 PM
+    Author     : msubrata
+*/
+
+::-webkit-scrollbar {width: 5px;}
+::-webkit-scrollbar-track {background: #d0d0d0;}
+::-webkit-scrollbar-thumb {background: #4e93f7;}
+::-webkit-scrollbar-thumb:hover {background: #0747A6;}
+
+
+body,a,div,ul,li,p,td,th,input,textarea{color: #2c2c2c;}
+body{font-size: 15px; background: #f0f0f0 !important;}
+.w105{width: 105px !important;}
+.w175{width: 175px !important;}
+.content{margin-top: 0px;padding: 20px;}
+.navbar-light .navbar-nav .nav-link {color: #464646;margin: 0px 0px 0px 10px;}
+.dropdown-menu {margin: 7px 0 0;border-radius: 0;}
+.table{margin: 0 !important;}
+.table-list thead tr td{background: #1d8f88;color: #fff;padding: 5px;}
+.table-list tbody tr td{color: #646464;padding: 5px;}
+.table-list tbody tr:hover td{background: #f4f4ff;}
+.table-list tbody tr.noOver:hover td{background: none;}
+.bg-default{background: #f9f9f9;}
+.table tr td{color: #646464;padding: 5px;}
+.bg-active{background: #00a401;color: #fff;}
+.bg-inactive{background: #ac3000;color: #fff;}
+.text-buy{color: #00a401 !important;}
+.text-sale{color: #ac3000 !important;}
+.prodSaleSearProd{max-height: 200px;overflow-y: scroll;}
+.prodSaleSearProdhead{overflow-y: scroll;}
+.alert{border-radius: 0;}
+.alert strong{font-weight: 600;}
+#pageLoader{display: none;position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(7, 71, 166, 0.2);z-index: 1201;}
+
+
+
+.btn.hide{visibility: hidden;position: absolute;}
+.btn.show{visibility: visible;position: relative;}
+.table thead{text-transform: uppercase;font-weight: 500; background: #f1f1f1;}
+.btn{border-radius: 0 !important;}
+
+.deleteIssue button,
+.btnAction button{padding: 4px 7px 2px 7px;font-size: 15px;margin: 0px 2px;background: none !important;border: none !important;}
+.btnAction{background: #f8f8f8;}
+.btnStart{color: #00a601 !important;}
+.btnPause{color: #f78800 !important;}
+.btnReset{color: #0986ff !important;}
+.btnResume{color: #b8860b !important;}
+.btnStop{color: #db3c00 !important;}
+.deleteIssue button{color: #cc2626 !important;}
+
+
+
+form .form-group label{margin: 0px 0px 2px 0px;font-weight: 500;color: #717171;font-size: 13px;}
+td.statusTd.Progress{color: #29a52a;}
+td.Open span,td.Reopened span{color: #4582ed;}
+td.Closed span{color: #ac3000;}
+
+.loginDiv{border: 1px solid #bcbcbc;}
+.loginDiv .logo img{max-width: 150px;}
+
+.logeedLogo img{height: 15px;width: auto; margin: -5px 0px 0px 0px;}
+.logeedLogo img:nth-child(1){margin-right: 10px; }
+.deleteIssue svg{cursor: pointer;}
+.headerDiv{background: #fff;padding: 5px 10px 5px 10px;border-bottom: 1px solid #dbdbdb;}
+.pageContent{margin: 195px 0px 0px 0px;}
+.fixedTop{position: fixed;top: 0px;width: 100%;background: #fff;border-bottom: 1px solid #dbdbdb;box-shadow: 0px 0px 3px #d7d7d7;}
+.Progress{color: #00a401;}
+.Open{color: #4582ed;}
+.Closed{color: #ac3000;}
+.timer{height: 30px !important;font-size: 20px !important;width: 110px !important;}
+.timerOn{border: 1px solid #00bd61;}
+.timerOn .timer{color: #259426;background: #e8fbe8 !important;}
+.rowIssue{border-bottom: 1px solid #bababa !important;}
+
+.searchFromList .fa-search{margin: 10px 0px 0px 8px;}
+.searchFromList #searchInput{padding: 0px 0px 0px 30px;}
+.fixedTop{border-bottom: 1px solid #b8b8b8;}

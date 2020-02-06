@@ -1,0 +1,22 @@
+{
+    "short_name": "JiraLog",
+    "name": "JIRA work log - Easy to log your work",
+    "icons": [
+        {
+            "src": "public/images/icons-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "public/images/icons-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/app/jiraworklog/public/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "orientation": "portrait",
+    "theme_color": "#3367D6"
+}
