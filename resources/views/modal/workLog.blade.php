@@ -18,7 +18,7 @@
                     </div>
                     <div class="form-group">
                         <label>Time Spent <span class="text-danger fs-12">[required]</span></label>
-                        <input type="text" name="timeSpent" readonly class="form-control timeSpent font-weight-600 text-success">
+                        <input type="text" name="timeSpent" class="form-control timeSpent font-weight-600 text-success">
                     </div>
                     <div class="form-group">
                         <label>Worklog Description <span class="text-danger fs-12">[required]</span></label>
