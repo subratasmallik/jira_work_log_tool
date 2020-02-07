@@ -195,8 +195,15 @@
             var $this = $(this);
             $tr.find('.btnPause').trigger('click');
             // open modalWorkLog modal
-            $('#modalWorkLog #issueIdSpan').html($tr.attr('data-issue'));
-            $('#modalWorkLog #logIssueId').html($tr.attr('data-issue'));
+            if($tr.attr('data-issue')!==undefined){
+                $('#modalWorkLog #issueIdSpan').html($tr.attr('data-issue'));
+                $('#modalWorkLog #logIssueId').html($tr.attr('data-issue'));
+            }else{
+                $('#modalWorkLog #issueIdSpan').html('Unknown Issue');
+                $('#modalWorkLog #logIssueId').html('');
+            }
+            
+            
             $('#modalWorkLog form').attr('data-id', $tr.attr('id'));
             $('#modalWorkLog .jiraIssue').val($tr.attr('data-issue'));
             //parentIssue
@@ -219,7 +226,7 @@
             if ($tr.find('.issueDescription').val() !== undefined) {
                 $('#modalWorkLog .logDescription').val($tr.find('.issueDescription').val());
             }else{
-                $('#modalWorkLog .logDescription').val($tr.attr('data-issueName'));
+                //$('#modalWorkLog .logDescription').val($tr.attr('data-issueName'));
             }
             $('#modalWorkLog').modal('show');
         });

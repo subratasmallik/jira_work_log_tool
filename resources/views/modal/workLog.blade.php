@@ -18,10 +18,10 @@
                     </div>
                     <div class="form-group">
                         <label>Time Spent <span class="text-danger fs-12">[required]</span></label>
-                        <input type="text" name="timeSpent" class="form-control timeSpent font-weight-600 text-success">
+                        <input type="text" name="timeSpent" readonly class="form-control timeSpent font-weight-600 text-success">
                     </div>
                     <div class="form-group">
-                        <label>Work Description <span class="text-danger fs-12">[required]</span></label>
+                        <label>Worklog Description <span class="text-danger fs-12">[required]</span></label>
                         <textarea class="form-control logDescription fs-14" name="description" rows="3"
                             required></textarea>
                         <span class="text-muted">Please add some description that what you did.</span>
